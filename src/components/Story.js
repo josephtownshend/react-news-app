@@ -1,8 +1,14 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import React, { useState, useEffect } from 'react';
 import { getStory } from '../services/hnApi';
 
-export const Story = ({storyId}) => {
-  useEffect(() => {}, []);
+export const Story = ({ storyId }) => {
+  const [story, setStory] = useState({});
 
-  return <p>I'm a story! {storyId}</p>;
+  useEffect(() => {
+    getStory(storyId).then(data => data && data.url && setStory(data));
+  }, []);
+
+  return <p>{JSON.stringify(story)}</p>;
 }
