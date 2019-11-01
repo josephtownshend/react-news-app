@@ -14,4 +14,4 @@ export const StoryWrapper = styled.section`
     padding-bottom: 0px;
   }
 
-`;`
+`;
