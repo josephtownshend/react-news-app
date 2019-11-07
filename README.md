@@ -1,6 +1,6 @@
 # React News App
 
-This repo is to document a follow along tutorial with https://www.youtube.com/watch?v=LN6Dol_fX0w of a Hacker News web app built using React. 
+This repo is to document a follow along tutorial with https://www.youtube.com/watch?v=LN6Dol_fX0w of a Hacker News web app built using React and the Hacker News API.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
